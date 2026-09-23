@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>ULAR — Энергия синергии</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="top">
+        <img class="hero__image" src="./assets/ribbon.png" alt="" />
+        <div class="hero__shade"></div>
+        <header class="site-header">
+          <a class="brand" href="#top" aria-label="ULAR">
+            <img src="./assets/logo-mark-white.svg" alt="" />
+            <img src="./assets/logo-white.svg" alt="ULAR" />
+          </a>
+          <nav class="nav" aria-label="Основная навигация">
+            <a href="#about">О компании</a><a href="#timeline">Структура</a><a href="#locations">Локации</a><a href="#news">Новости</a><a href="#contacts">Контакты</a>
+          </nav>
+          <div class="header-actions"><button class="lang" type="button">РУ <img src="./assets/chevron-down.svg" alt="" /></button><a class="button button--light" href="#contacts">Написать нам</a></div>
+        </header>
+        <h1 class="hero__title">Энергия синергии</h1>
+        <div class="hero__meta mono">
+          <p><i></i>Промышленная и технологическая холдинговая компания</p>
+          <p>Развитие навыков<br />будущего</p>
+          <p>создаем инновационные решения</p>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__pin">
+          <h2>Мы объединяем индустрии<br />и заряженных людей, чтобы вместе исследовать, находить и воплощать прорывные решения, укрепляя наше общее завтра</h2>
+          <a class="button button--accent" href="#contacts">Связаться</a>
+        </div>
+        <div class="story" aria-label="Направления группы ULAR">
+          <article class="story-card story-card--small">
+            <h3>Воплощаем прорывные решения вместе</h3>
+            <img class="story-card__portrait" src="./assets/worker.png" alt="" />
+            <p>Группа ULAR объединяет важные производственные линии, логистические узлы и передовые технологии для развития</p>
+          </article>
+          <article class="story-card story-card--wide story-card--industry">
+            <img class="story-card__cover" src="./assets/industry.png" alt="" />
+            <h3>Объединяем индустрии</h3>
+            <p>Группа ULAR объединяет важные производственные линии, логистические узлы и передовые технологии для развития Группа ULAR объединяет важные производственные линии, логистические узлы и передовые технологии для развития</p>
+          </article>
+          <article class="story-card story-card--small">
+            <h3>Строим<br /><em>транспорт</em></h3>
+            <img class="story-card__transport" src="./assets/transport.png" alt="" />
+            <p>Группа ULAR объединяет важные производственные линии, логистические узлы и передовые технологии для развития</p>
+          </article>
+          <article class="story-card story-card--wide story-card--ribbon">
+            <img class="story-card__cover" src="./assets/ribbon.png" alt="" />
+            <div class="story-card__copy">
+              <h3>Организовываем и развиваем&nbsp; логистику</h3>
+              <p>Группа ULAR объединяет важные производственные линии, логистические узлы и передовые технологии<br />для развития Группа ULAR объединяет важные</p>
+            </div>
+            <img class="story-card__logistics" src="./assets/logistics-card.png" alt="" />
+          </article>
+        </div>
+      </section>
+
+      <section class="growth" id="timeline" aria-label="Ключевые показатели ULAR">
+        <div class="growth__stage">
+          <div class="growth__stats" data-growth-stats>
+            <article><strong>07</strong><p class="mono">Key strategic divisions</p></article>
+            <article><strong>45+</strong><p class="mono">Active consumer brands</p></article>
+            <article><strong>12</strong><p class="mono">Countries of presence</p></article>
+            <article><strong>15+</strong><p class="mono">Years of market leadership</p></article>
+            <article><strong>54</strong><p class="mono">Years of market leadership</p></article>
+          </div>
+          <div class="growth__bars" aria-hidden="true">
+            <i style="--bar-height:265px"></i><i style="--bar-height:456px"></i><i style="--bar-height:538px"></i>
+            <i style="--bar-height:651px"></i><i style="--bar-height:759px"></i><i style="--bar-height:862px"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="divisions" id="structure" aria-label="Направления ULAR">
+        <div class="divisions__backgrounds" aria-hidden="true">
+          <img class="divisions__background is-active" data-division-bg-a src="./assets/divisions-logistics.png" alt="" />
+          <img class="divisions__background" data-division-bg-b src="./assets/block3-auto.png" alt="" />
+        </div>
+        <div class="divisions__veil"></div>
+        <strong class="divisions__logo">Ular</strong>
+        <div class="divisions__list" role="tablist" aria-label="Дивизионы">
+          <button type="button" role="tab" data-division="0">Автомобили</button>
+          <button type="button" role="tab" data-division="1" class="is-active" aria-selected="true">Логистика</button>
+          <button type="button" role="tab" data-division="2">Технологии</button>
+          <button type="button" role="tab" data-division="3">Переработка</button>
+          <button type="button" role="tab" data-division="4">Конструирование</button>
+          <button type="button" role="tab" data-division="5">Розничная торговля</button>
+          <button type="button" role="tab" data-division="6">Агро</button>
+        </div>
+        <div class="divisions__details" role="tabpanel" aria-live="polite">
+          <p>Архитектура брендов Ular структурирована в соответствии с отраслевым принципом: материнская компания объединяет ключевые бизнес-области через единый подход под одним брендом. Промышленные сегменты. Архитектура брендов Ular структурирована в соответствии с отраслевым принципом: материнская компания объединяет ключевые бизнес-области через единый подход под одним брендом. Промышленные сегменты</p>
+          <div class="divisions__brands"><span>Бренд</span><span>Бренд</span><span>Бренд</span></div>
+        </div>
+      </section>
+
+      <section class="geo" id="locations" aria-label="География ULAR">
+        <h2>Мы объединяем индустрии<br />и заряженных людей</h2>
+        <article class="geo__office">
+          <b>Главный офис</b>
+          <p>Астана, ул. Название улицы, д.2, пом.34</p>
+          <p>+5655 443 3333</p>
+          <p>ular@gmail.com</p>
+        </article>
+        <div class="geo__metrics" aria-label="Показатели географии">
+          <div><strong>6</strong><span>Регионов</span></div>
+          <div><strong>20+</strong><span>Направлений</span></div>
+          <div><strong>50+</strong><span>Офиисов</span></div>
+        </div>
+        <img class="geo__map" src="./assets/dot-map.svg" alt="Карта присутствия ULAR" />
+      </section>
+
+      <section class="news section-pad" id="news">
+        <h2>Последние нововсти</h2>
+        <div class="news__grid">
+          <article class="news-card"><div class="news-card__meta mono"><time>24 ФЕВ 2026</time><span>Пресс-служба</span></div><div><h3>Группа УЛАР объявляет о реструктуризации металлургического дивизиона</h3><p>Консолидация активов по плавке и переработке под единым операционным менеджером для повышения прибыльности на 12% в FY26.</p></div><a href="#">Читать статью <img src="./assets/arrow.svg" alt="" /></a></article>
+          <article class="news-card"><div class="news-card__meta mono"><time>18 ФЕВ 2026</time><span>технологии</span></div><div><h3>Архитектура IoT для предприятий внедрена в логистике</h3><p>Технологии УЛАР завершили внедрение автоматизированных расписаний транзита, что снизило топливные расходы примерно на 8% по всей группе.</p></div><a href="#">Читать статью <img src="./assets/arrow.svg" alt="" /></a></article>
+          <article class="news-card"><div class="news-card__meta mono"><time>10 ФЕВ 2026</time><span>Агро</span></div><div><h3>Грузовые терминалы AgBalyq завершили этап расширения</h3><p>Четыре новых высокоемких зерновых силоса успешно прошли контроль качества и полностью готовы к весеннему экспорту.</p></div><a href="#">Читать статью <img src="./assets/arrow.svg" alt="" /></a></article>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contacts">
+        <div class="contact__info"><h2>Свяжитесь с нами</h2><p>Группа ULAR консолидирует критически важные производственные линии, логистические узлы и передовые технологии для развития</p><div class="contact__details"><div><b class="mono">Головной офис</b><span>Бульвар Шевченко 12, Алматы, Казахстан</span></div><div><b class="mono">Запросы</b><span>+7 (727) 344-90-88</span><span>office@ulargroup.com</span></div></div></div>
+        <form class="contact__form"><label><span>Имя</span><input aria-label="Имя" /></label><label><span>E-mail</span><input type="email" aria-label="E-mail" /></label><label><span>Компания</span><input aria-label="Компания" /></label><label class="message"><span>Сообщение</span><textarea aria-label="Сообщение"></textarea></label><button class="button button--accent" type="submit">Отправить</button></form>
+      </section>
+
+      <footer class="footer">
+        <img class="footer__ribbon" src="./assets/ribbon.png" alt="" />
+        <img class="footer__logo" src="./assets/logo-footer.svg" alt="ULAR" />
+        <div class="footer__links"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><span>© 2026 ULAR COMPANY</span></div>
+      </footer>
+    </main>
+  </body>
+</html>
