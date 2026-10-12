@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>ULAR - Энергия синергии</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./v7.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="top">
+        <img class="hero__image" src="./assets/ribbon.png" alt="" />
+        <div class="hero__shade"></div>
+        <header class="site-header">
+          <a class="brand" href="#top" aria-label="ULAR">
+            <img src="./assets/logo-mark-white.svg" alt="" />
+            <img src="./assets/logo-white.svg" alt="ULAR" />
+          </a>
+          <nav class="nav" aria-label="Основная навигация">
+            <a href="#about">О компании</a><a href="#structure">Структура</a><a href="#locations">Локации</a><a href="#news">Новости</a><a href="#contacts">Контакты</a>
+          </nav>
+          <div class="header-actions"><button class="lang" type="button">РУ <img src="./assets/chevron-down.svg" alt="" /></button><a class="button button--light" href="#contacts">Написать нам</a></div>
+        </header>
+        <h1 class="hero__title">Энергия синергии</h1>
+        <div class="hero__meta mono">
+          <p><i></i>Промышленная и технологическая холдинговая компания</p>
+          <p>Развитие навыков<br />будущего</p>
+          <p>создаем инновационные решения</p>
+        </div>
+      </section>
+
+      <section class="mission" id="about"><div class="mission__intro"><p class="mono">Миссия и ценности</p><h2>Мы объединяем индустрии <br />и заряженных людей, чтобы вместе исследовать, находить и воплощать прорывные решения, укрепляя наше общее завтра</h2></div><div class="mission__stats" aria-label="Ключевые показатели ULAR"><article><strong>7</strong><p class="mono">Ключевых направлений бизнеса</p></article><article><strong>45+</strong><p class="mono">Брендов в портфеле</p></article><article><strong>12</strong><p class="mono">Стран присутствия</p></article><article><strong>15</strong><p class="mono">Лет лидерства на рынке</p></article><article><strong>30+</strong><p class="mono">Компаний в экосистеме</p></article></div><div class="values"><article class="values__card">
+            <h3>Энергия вдохновения</h3>
+            <img class="values__image values__image--industry" src="./assets/value-industry.png" loading="lazy" alt="Промышленное здание" />
+            <p>Заряжаем своей энергией партнеров, сотрудников и рынок, превращая рутинные процессы в желание мечтать и делать больше.</p>
+          </article><article class="values__card">
+            <h3>Дух неуемного внутреннего предпринимательства</h3>
+            <img class="values__image values__image--road" src="./assets/value-road.png" loading="lazy" alt="Дорога среди полей" />
+            <p>Поощряем инициативу и даем право на ошибку. Каждый сотрудник может стать создателем нового бизнеса внутри компании.</p>
+          </article><article class="values__card">
+            <h3>Единство непохожих</h3>
+            <img class="values__image values__image--worker" src="./assets/value-worker.png" loading="lazy" alt="Сотрудница на производстве" />
+            <p>Лучшие решения рождаются на стыке мнений, специальностей и индустрий. Мы сознательно объединяем разные отрасли, людей и перспективы.</p>
+          </article></div></section>
+
+      <section class="divisions" id="structure" aria-label="Направления ULAR">
+        <div class="divisions__backgrounds" aria-hidden="true">
+          <img class="divisions__background is-active" data-division-bg-a src="./assets/company-logostic.png" alt="" />
+          <img class="divisions__background" data-division-bg-b src="./assets/company-auto.png" alt="" />
+        </div>
+        <div class="divisions__veil"></div>
+        <strong class="divisions__logo">Ular</strong>
+        <div class="divisions__list" role="tablist" aria-label="Дивизионы">
+          <button type="button" role="tab" data-division="0">Auto</button>
+          <button type="button" role="tab" data-division="1" class="is-active" aria-selected="true">Logistics</button>
+          <button type="button" role="tab" data-division="2">Tech</button>
+          <button type="button" role="tab" data-division="3">Recycling</button>
+          <button type="button" role="tab" data-division="4">Construction</button>
+          <button type="button" role="tab" data-division="5">Retails</button>
+          <button type="button" role="tab" data-division="6">Agro</button>
+        </div>
+        <div class="divisions__details" role="tabpanel" aria-live="polite">
+          <p>Логистическое направление объединяет маршруты, инфраструктуру и команды, которые обеспечивают движение товаров между предприятиями и рынками.</p>
+          <div class="divisions__brands"><span>Бренд</span><span>Бренд</span><span>Бренд</span></div>
+        </div>
+      </section>
+
+      <section class="map-v3" id="locations" aria-label="География ULAR">
+        <h2>Распределение</h2>
+        <img class="map-v3__image" src="./assets/map-static.png" alt="Карта присутствия ULAR" />
+        <aside class="map-v3__addresses">
+          <article><b>Главный офис</b><p>Бульвар Шевченко 12, Алматы, Казахстан</p><p>+7 (727) 344-90-88</p><p>office@ulargroup.com</p></article>
+          <div><b>Все адреса</b><p>Алматы, проспект Достык, 123</p><p>Нур-Султан, улица Тәуелсіздік, 45</p><p>Шымкент, улица Тауке Хана, 30</p><p>Актобе, улица Байганина, 12</p><p>Караганда, проспект Строителей, 78</p><p>Павлодар, улица Ленина, 10</p><p>Семей, улица Абая, 22</p><p>Усть-Каменогорск, улица Сатпаева, 5</p><p>Талдыкорган, проспект Назарбаева, 67</p><p>Актобе, улица Байганина, 12</p><p>Караганда, проспект Строителей, 78</p><p>Павлодар, улица Ленина, 10</p></div>
+        </aside>
+      </section>
+
+      <section class="news section-pad" id="news"><div class="news__intro"><h2>Последние новости Ular</h2><p>Группа ULAR консолидирует критически важные производственные линии, логистические узлы и передовые технологии для развития</p></div><div class="news__grid"><article class="news-card"><div class="news-card__thumbnail" aria-hidden="true"></div><div class="news-card__content"><h3>Архитектура IoT для предприятий внедрена в логистике</h3><time class="mono" datetime="2026-02-24">24 ФЕВ 2026</time></div></article><article class="news-card"><div class="news-card__thumbnail" aria-hidden="true"></div><div class="news-card__content"><h3>Завершение внедрения автоматизированных расписаний транзита</h3><time class="mono" datetime="2026-02-24">24 ФЕВ 2026</time></div></article><article class="news-card"><div class="news-card__thumbnail" aria-hidden="true"></div><div class="news-card__content"><h3>Грузовые терминалы AgBalyq завершили этап расширения</h3><time class="mono" datetime="2026-02-24">24 ФЕВ 2026</time></div></article></div></section>
+
+      <section class="contact section-pad" id="contacts">
+        <div class="contact__info"><h2>Свяжитесь с нами</h2><p>Группа ULAR консолидирует критически важные производственные линии, логистические узлы и передовые технологии для развития</p><div class="contact__details"><div><b class="mono">Головной офис</b><span>Бульвар Шевченко 12, Алматы, Казахстан</span></div><div><b class="mono">Запросы</b><span>+7 (727) 344-90-88</span><span>office@ulargroup.com</span></div></div></div>
+        <form class="contact__form"><label><span>Имя</span><input aria-label="Имя" /></label><label><span>E-mail</span><input type="email" aria-label="E-mail" /></label><label><span>Компания</span><input aria-label="Компания" /></label><label class="message"><span>Сообщение</span><textarea aria-label="Сообщение"></textarea></label><button class="button button--accent" type="submit">Отправить</button></form>
+      </section>
+
+      <footer class="footer">
+        <img class="footer__ribbon" src="./assets/footer-ribbon.png" alt="" />
+        <img class="footer__logo" src="./assets/footer-wordmark.svg" alt="ULAR" />
+        <div class="footer__links"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><span>© 2026 ULAR COMPANY</span></div>
+      </footer>
+    </main>
+  </body>
+</html>
